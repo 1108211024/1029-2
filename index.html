@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="image/Tainan.png" sizes="60x60" type="image/x-iconf">
+
     <!-- themes -->
     <link rel="stylesheet" href="themes/color.css" />
     <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
     <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile.structure-1.4.5.min.css" /> 
+
     <!-- jquery mobile -->
-    <link rel="stylesheet" href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
-    <link rel="icon" href="image/Tainan.png" sizes="60x60" type="image/x-iconf">
     <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
     <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
 
@@ -17,6 +19,26 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Syne+Tactile&display=swap" rel="stylesheet">
     <style>
         #home img {
+            max-width: 100%;
+        }
+
+        #page01 img {
+            max-width: 100%;
+        }
+
+        #page02 img {
+            max-width: 100%;
+        }
+
+        #page03 img {
+            max-width: 100%;
+        }
+
+        #page04 img {
+            max-width: 100%;
+        }
+
+        #aboutus img {
             max-width: 100%;
         }
 
@@ -99,6 +121,7 @@
 
         <div role="main" class="ui-content">
             <p>歷史地理</p>
+            <img src="https://picsum.photos/800" alt="">
         </div>
 
         <div data-role="footer" data-position="fixed">
@@ -116,6 +139,7 @@
 
         <div role="main" class="ui-content">
             <p>在地美食</p>
+            <img src="https://picsum.photos/700" alt="">
         </div>
 
         <div data-role="footer" data-position="fixed">
@@ -153,6 +177,7 @@
 
         <div role="main" class="ui-content">
             <p>交通資訊</p>
+            <img src="https://www.twtainan.net/content/images/page/map_Driving.jpg" alt="">
         </div>
 
         <div data-role="footer" data-position="fixed">
@@ -162,15 +187,19 @@
     </div><!-- 交通資訊 -->
 
     <!-- 關於我們 -->
-    <div data-role="page" id="aboutus">
+    <div data-role="page" id="aboutus" data-dialog="true">
         <div data-role="header">
             <a href="#home" class="ui-btn ui-icon-home ui-btn-icon-notext ui-btn-corner-all">home</a>
             <h1>台南之旅</h1>
         </div>
 
-        <div role="main" class="ui-content">
-            <p>關於我們</p>
-        </div>
+        <div role="main" class="ui"  >
+            <h1>關於我們</h1>
+            <p>想更了解我們嗎？那就多多關注Us吧!</p>
+            <img src="https://picsum.photos/1000" alt="">
+
+         
+        </div><!-- /content -->
 
         <div data-role="footer" data-position="fixed">
             <h4>Copyright &copy; 2020 Wenzao DCAM Peihan</h4>

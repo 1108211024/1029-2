@@ -17,6 +17,7 @@
 
     <!-- Google fonts-->
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&family=Syne+Tactile&display=swap" rel="stylesheet">
+
     <style>
 
         .content2 {
@@ -24,7 +25,17 @@
             justify-content: space-between;
             flex-wrap: wrap;
         }
+
+        .conimg {
+            width: 64%;
+            min-width: 100%;
+        }
+        .conimg img {
         
+        max-width: 100%;
+        border-radius: 15px;
+        }
+
         body { 
             font-family: 'Noto Sans TC', sans-serif;
         }
@@ -87,37 +98,46 @@
             <h1>台南之旅</h1>
         </div>
 
-        <div role="main" class="ui-content">
-            <h1>推薦台南一日遊</h1>
-            <img src="image/art01.jpg" height="800" weight="500" alt="">
-            <p>來台南怕無聊？看完保證您三天兩夜都玩不完！</p>
-            <ul data-role="listview" data-inset="true">
-                <li><a href="#page01">
-                    <img src="https://picsum.photos/100" alt="">
-                   <h2>歷史地理</h2>
-                   <p>台南的天文歷史及地理......</p>
-                </a></li>
-                <li><a href="#page02">
-                    <img src="https://picsum.photos/200" alt="">
-                    <h2>在地美食</h2>
-                    <p>台南必吃小吃,沒吃過別說你來過台南!</p>
-                </a></li>
-                <li><a href="#page03">
-                    <img src="https://picsum.photos/300" alt="">
-                    <h2>好玩景點</h2>
-                    <p>台南必踩景點,不管跟朋友、家人或小情侶都很適合的好所在!</p>
-                </a></li>
-                <li><a href="#page04">
-                    <img src="https://picsum.photos/400" alt="">
-                    <h2>交通資訊</h2>
-                    <p>該怎麼在台南趴趴造?看這裡就對了!</p>
-                </a></li>
-                <li><a href="#aboutus">
-                    <img src="https://picsum.photos/500" alt="">
-                    <h2>關於我們</h2>
-                    <p>想更了解我們嗎?請繼續關注吧~</p>
-                </a></li>
-            </ul>
+        <div role="main" class="content2">
+            
+            <div class="conimg">
+                <h1>推薦台南一日遊</h1>
+                <img src="image/art01.jpg"  alt="">
+            
+                <p>來台南怕無聊？看完保證您三天兩夜都玩不完！</p>
+                <ul data-role="listview" data-inset="true">
+                    <li><a href="#page01">
+                        <img src="https://picsum.photos/100" alt="">
+                        <h2>歷史地理</h2>
+                        <p>台南的天文歷史及地理......</p>
+                        </a>
+                    </li>
+                    <li><a href="#page02">
+                        <img src="https://picsum.photos/200" alt="">
+                        <h2>在地美食</h2>
+                        <p>台南必吃小吃,沒吃過別說你來過台南!</p>
+                        </a>
+                    </li>
+                    <li><a href="#page03">
+                        <img src="https://picsum.photos/300" alt="">
+                        <h2>好玩景點</h2>
+                        <p>台南必踩景點,不管跟朋友、家人或小情侶都很適合的好所在!</p>
+                        </a>  
+                    </li>
+                    <li><a href="#page04">
+                        <img src="https://picsum.photos/400" alt="">
+                        <h2>交通資訊</h2>
+                        <p>該怎麼在台南趴趴造?看這裡就對了!</p>
+                        </a>
+                    </li>
+                    <li><a href="#aboutus">
+                        <img src="https://picsum.photos/500" alt="">
+                        <h2>關於我們</h2>
+                        <p>想更了解我們嗎?請繼續關注吧~</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
 
         <div data-role="footer" data-position="fixed">
@@ -133,7 +153,8 @@
             <h1>台南之旅</h1>
         </div>
 
-        <div role="main" class="ui-content">
+        <div role="main" class="content2">
+            <div class="conimg">
             <h2>歷史地理</h2>
             <p>臺南市歷史，早在15世紀的航海時代以前，台南市就是台灣較早期的有人聚落，此時有東南沿海的海賊在台灣出沒。荷蘭東印度公司前來與東亞進行貿易時，因為明朝佔有澎湖，根據自身貿易的需要，轉而往鄰近的台灣尋找東亞的貿易基地。荷蘭人來到適宜設置港口的台江內海（今台南市區）後，找到了一些漢人漁民在此地建立的聚落，便在1624年設立了台灣第一個城鎮。此後經過鄭成功與清朝的發展，二百餘年來臺南一直是全臺首邑。事實上，「臺灣」一名本即為臺南安平之舊稱，稍後方擴大為全島之名。另外在臺南亦有發現數處史前文化，為臺灣已知最早人類居住地之一。</p>
             <img src="image/history.jpg" alt="">
@@ -142,6 +163,7 @@
             <img src="image/home.jpg" height="300" weight="200" alt="">
             <p>安平古堡，又稱熱蘭遮城、奧倫治城、王城、安平城、臺灣城，是一座曾經存在於臺灣臺南市的堡壘。最初建於1624年，是臺灣最早的要塞建築。自建城以來，曾是荷蘭人統治臺灣的中樞，也曾是鄭氏王朝統治者的住處。</p>
             <p>古堡建築屋舍純用紅色磚瓦，於黃昏時與落日互相煇映之景「安平夕照」。在1953年，獲臺灣省政府選為臺灣八景之一。</p>
+            </div>
         </div>
 
         <div data-role="navbar">
@@ -167,7 +189,8 @@
             <h1>台南之旅</h1>
         </div>
 
-        <div role="main" class="ui-content">
+        <div role="main" class="content2">
+            <div class="conimg">
             <h1>在地美食</h1>
             <p>店家資訊：『 南泉冰菓室 』</p>
             <p>店家地址：台南市安平區安平路270號</p>
@@ -187,6 +210,7 @@
             <p>營業時間：週一~週五 8:00-18:00 週六、週日 7:00-18:00</p><img src="image/cafe.jpg" height="500" weight="400" alt="">
             <div class="video-wrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/K3aygxGsBSM" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             </div>
         </div>
 
@@ -213,7 +237,8 @@
             <h1>台南之旅</h1>
         </div>
 
-        <div role="main" class="ui-content">
+        <div role="main" class="content2">
+            <div class="conimg">
             <h1>好玩景點</h1>
             <p>『 大魚的祝福 』</p>
             <img src="image/鯨魚.jpg" height="500" weight="500" alt="">
@@ -225,6 +250,7 @@
             <img src="image/運河.jpg" height="500" weight="400" alt="">
             <div class="video-wrapper">
             <iframe width="560" height="315" src="https://www.youtube.com/embed/T6_t_8SP0_g" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
             </div>
         </div>
 
@@ -251,11 +277,13 @@
             <h1>台南之旅</h1>
         </div>
 
-        <div role="main" class="ui-content">
+        <div role="main" class="content2">
+            <div class="conimg">
             <h2>交通資訊</h2>
             <img src="https://www.twtainan.net/content/images/page/map_Driving.jpg" alt="">
             <h2>『 台南市政府 』</h2>
             <img src="image/市政府.jpg" height="400" weight="300" alt="">
+            </div>
         </div>
 
         <div data-role="navbar">
